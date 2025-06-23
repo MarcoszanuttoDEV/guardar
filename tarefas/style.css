@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.alternan{
+width: 60%;
+height: 30vw;
+background-color: aqua;
+display: flex;
+  flex-direction: column;  /* Coloca os elementos um abaixo do outro */
+  align-items: center;     /* Centraliza no eixo horizontal */
+  justify-content: center; /* Centraliza no eixo vertical */
+  gap: 10px;               /* Espaço entre os campos */
+    
+}

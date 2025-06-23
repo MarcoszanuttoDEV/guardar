@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.todos{
+    justify-content: space-between;
+}
+
+.todos button{
+    width: 19vw;
+    height: clamp(30px, 2.9vw, 6vw);
+    font-size: clamp(10px,1.3vw,3vw);
+    font-weight: bold;
+    background-color: rgb(102, 102, 102);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+}
+
+.todos button:hover{
+background-color: black;
+
+}
+.todos button {
+
+    transition: background-color 0.3s ease;
+}
